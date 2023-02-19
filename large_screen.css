@@ -1,8 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-/* Header */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+.d-n{
+    display: none;
+}    
+    /* Header */
 .header{
     padding-top: 15px;
     border-bottom: 2px solid #dfdfdf;
@@ -22,8 +23,8 @@
 .services ul li {
     display: flex;
     display: inline;
-    margin: 0 20px;
-    font-size: 19px;
+    margin: 0 10px;
+    font-size: 12px;
     font-family: montserrat;
     color:#00456F;
     letter-spacing: 0;
@@ -40,6 +41,7 @@
 }
 .col-left{
     display: flex;
+    max-width: 80%;
 }
 .col-right {
     width: 160px;
@@ -70,7 +72,7 @@
 .dashboard-container h1 {
     color: #00456F;
     font-family: montserrat;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
     width: 167px;
     margin: auto;
@@ -79,8 +81,8 @@
 }
 /* firts row  */
 .single-dashboard-options img {
-    width: 95px;
-    height: 95px;
+    width: 90px;
+    height: 90px;
 }
 .first-row {
     display: grid;
@@ -89,7 +91,7 @@
     gap: 2.5%;
 }
 .account-dashboard {
-    height: 333px;
+    height: 310px;
     border: 1px solid #d8d8d8;
     border-radius: 3.5px;
     box-sizing: border-box;
@@ -103,7 +105,7 @@
 }
 .first-row h2 {
     font-family: 'Montserrat';
-    font-size: 20px;
+    font-size: 16px;
     color: #00456F;
     width: 241px;
     margin: auto;
@@ -119,7 +121,7 @@
 .first-row .account-dashboard p {
     color: #00456F;
     font-family: 'Montserrat';
-    font-size: 16px;
+    font-size: 15px;
     line-height: 19px;
     margin: 11px 0;
     font-weight: 500;
@@ -131,17 +133,17 @@
 }
 .single-dashboard-options .title a {
     font-family: montserrat;
-    font-size: 12px;
+    font-size: 9px;
     text-decoration: none;
     color: #fff;
     font-weight: bold;
     background-color: #00456F;
-    padding: 16px 12px;
+    padding: 12px 5px;
     border-radius: 3px;
 }
 .title{
     margin-top: 25px;
-
+    width: 93px;
 }
 .friends-options {
     display: flex;
@@ -152,6 +154,7 @@
     font-weight: 500;
     margin-bottom: 10px;
     color: #00456F;
+    font-size: 14px;
 }
 
 .single-dashboard-options a {
@@ -177,7 +180,7 @@
     background: #00456F;
     height: 43px;
     border-radius: 3px;
-    width: 165px;
+    width: 130px;
 }
 .bg-yellow{
     background: #F1C305;
@@ -208,11 +211,12 @@
 }
 .suggested-friends h2 {
     margin-bottom: 10px;
+    font-size: 10px;
 }
 
 .single-suggestes-friends img {
-    width: 54px;
-    height: 54px;
+    width: 40px;
+    height: 40px;
 }
 .see-more a {
     font-family: 'Montserrat';
@@ -232,8 +236,8 @@
 .single-estimated-margin {
     border: .65px solid #d8d8d8;
     box-shadow: 7px 7px 9px 0 rgba(0,0,0,0.12);
-    width: 234px;
-    height: 162px;
+    width: 160px;
+    height: 155px;
 }
 .estimated-margin {
     margin-top: 4%;
@@ -242,11 +246,14 @@
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
+    max-width: 93%;
+    margin: auto;
+    margin-top: 10px;
 }
 
 .margin-title h2 {
     color: #00456F;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
     font-family: montserrat;
 }
@@ -254,7 +261,7 @@
     text-decoration: none;
     font-family: montserrat;
     color: #00456F;
-    font-size: 14.6px;
+    font-size: 12.6px;
     font-weight: 600;
     color: #00456F;
     margin-top: 0px;
@@ -280,19 +287,19 @@
 }
 
 .margin-body h2 {
-    font-size: 31.5px;
+    font-size: 25.5px;
     font-weight: 300;
     font-family: montserrat;
     color: #00456F;
 }
 .margin-body h3 {
-    font-size: 27.12px;
+    font-size: 18.12px;
     font-family: 'Montserrat';
     font-weight: bold;
     color: #00AEEF;
 }
 .margin-body h3 a {
-    font-size: 18.12px;
+    font-size: 13.12px;
     font-family: 'Montserrat';
     font-weight: bold;
     color: #00AEEF;
@@ -307,7 +314,10 @@
     box-shadow: 10px 10px 13px 0 rgba(0,0,0,0.12);
     border-radius: 3.5px;
     box-sizing: border-box;
-    height: 736px;
+    height: 620px;
+}
+.report-img img {
+    width: 800px;
 }
 .report-title h2 {
     font-size: 20px;
@@ -346,14 +356,14 @@
     margin: auto;
     text-align: center;
     background-color: #00456F;
-    width: 160px;
+    width: 135px;
     height: 43px;
 }
 .history {
     display: flex;
     max-width: 35%;
     margin: auto;
-    margin-top: 6%;
+    margin-top: 3%;
 }
 .history div a {
     color: white;
@@ -410,26 +420,4 @@
 .navbar{
     display: none;
 }
-
-@media screen and (min-width: 320px) and (max-width: 400px) {
-
-
 }
-
-@media screen and (min-width: 401px) and (max-width: 575px) {
-}
-
-@media screen and (min-width: 576px) and (max-width: 766px) {
-}
-
-@media screen and (min-width: 767px) and (max-width: 991px) {
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-}
-
-@media screen and (min-width: 1200px) {
-}
-
-
-
