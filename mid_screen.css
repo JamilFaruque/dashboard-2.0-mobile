@@ -1,48 +1,58 @@
+@media screen and (min-width:576px) and (max-width: 991px) {
 
-@media screen and (min-width:576px) and (max-width: 991px){
-
-    .navbar{
+    .navbar {
         display: block;
     }
-    .services{
+
+    .services {
         display: none;
     }
-    .header img{
+
+    .header img {
         height: 42px;
         width: 74px;
     }
-    .col-right{
+
+    .col-right {
         width: 88px;
         height: 35px;
     }
-    .col-right p{
+
+    .col-right p {
         font-size: 8.80px;
     }
-    .col-right img{
+
+    .col-right img {
         width: 22px;
         height: 22px;
     }
-    .col-right i{
+
+    .col-right i {
         font-size: 8px;
     }
-    .header-content{
+
+    .header-content {
         position: relative;
         margin-bottom: 5px;
     }
+
     .header-img {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    .navbar i{
+
+    .navbar i {
         font-size: 22px;
     }
-    .dashboard-container h1{
+
+    .dashboard-container h1 {
         font-size: 16px;
         text-align: center;
     }
-    .title{
+
+    .title {
         margin-top: 25px;
         background-color: #00456F;
         border-radius: 5px;
@@ -50,103 +60,125 @@
         height: 44px;
         margin: auto;
         max-width: 100%;
-}
+    }
 
 
-    .first-row{
+    .first-row {
         display: flex;
         flex-direction: column;
     }
-    .account-dashboard{
+
+    .account-dashboard {
         height: 460px;
         margin-bottom: 10%;
     }
-    .first-row .account-dashboard p{
+
+    .first-row .account-dashboard p {
         font-size: 12px;
     }
-    .dashboard-options{
+
+    .dashboard-options {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
-    .single-dashboard-options{
+
+    .single-dashboard-options {
         margin-bottom: 20px;
         flex-basis: 45%;
         box-sizing: border-box;
         width: 100px;
     }
-    .m-auto{
+
+    .m-auto {
         margin: auto;
         margin-bottom: 10px;
     }
-    .single-dashboard-options img{
+
+    .single-dashboard-options img {
         width: 90px;
         height: 90px;
-        
+
     }
-    .friends-options{
+
+    .friends-options {
         display: flex;
     }
-    .link{
+
+    .link {
         width: 95%;
         margin: auto;
     }
-    .d-n{
+
+    .d-n {
         display: none;
     }
-    .friends{
+
+    .friends {
         height: 358px;
     }
-    .estimated-margin{
+
+    .estimated-margin {
         display: flex;
         flex-direction: column;
         height: 962px;
-        
+
     }
-    .single-estimated-margin{
+
+    .single-estimated-margin {
         margin: auto;
         width: 100%;
         margin-bottom: 20px;
         height: 175px;
     }
-    .margin-body{
-        padding:5% 0;
+
+    .margin-body {
+        padding: 5% 0;
     }
-    .estimated-margin-mobile{
+
+    .estimated-margin-mobile {
         display: block;
         height: 65rem;
     }
-    .estimated-margin-pc{
+
+    .estimated-margin-pc {
         display: none;
     }
-    .report-pc{
+
+    .report-pc {
         display: none;
     }
-    .report-title{
+
+    .report-title {
         display: flex;
         justify-content: space-between;
         max-width: 95%;
         margin: auto;
         margin-top: 10px;
     }
-    .report-title h2{
+
+    .report-title h2 {
         margin-bottom: 20px;
     }
-    .report-title i{
+
+    .report-title i {
         font-size: 30px;
         color: #00456F;
     }
-    .report-data{
+
+    .report-data {
         display: flex;
         flex-direction: column;
     }
-    .single-report-data{
+
+    .single-report-data {
         margin: auto;
         text-align: center;
         margin-bottom: 15px;
     }
-    .single-report-data a{
-      
+
+    .single-report-data a {
+
         font-family: montserrat;
         font-size: 12px;
         text-decoration: none;
@@ -156,28 +188,33 @@
         padding-top: 15px;
 
     }
-    .report-btn{
+
+    .report-btn {
         background-color: #00456F;
         border-radius: 1.5px;
         width: 260px;
         height: 44px;
         margin: auto;
-        
+
     }
-    .footer-wrapper{
+
+    .footer-wrapper {
         display: flex;
         flex-direction: column;
-        margin:auto;
-    }
-    .footer-wrapper .right-col{
-        display: flex;
-        flex-direction: column;
-    }
-    .footer-wrapper .left-col{
         margin: auto;
     }
-    .footer-wrapper .right-col div{
+
+    .footer-wrapper .right-col {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-wrapper .left-col {
+        margin: auto;
+    }
+
+    .footer-wrapper .right-col div {
         margin: 10px 0;
     }
-    
+
 }
